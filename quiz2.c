@@ -24,12 +24,6 @@ int main (int argc, char **argv)
 	double tamano = atof(argv[3]);
 	printf("Parámetros: %f %f %g\n", limInf, limSup, tamano);
 	
-	//int numPasos = int((limSup - limInf)/tamano);
-	
-	// Vectores de datos
-	//double *vectorX;
-	//vectorX = malloc((numPasos)*sizeof(float));
-	
 	int j = 0;
 	double valorx = limInf;
 	double suma = 0;
